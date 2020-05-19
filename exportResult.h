@@ -11,7 +11,7 @@ void exportResult()
 
 	for (int m = 0; m <= task_size; m++)
 	{
-		fprintf(of, "%ld,%d,%d ns,%d ns,%d ns,%d,%d", arr_task[m].task_id, arr_task[m].arrival_time, arr_task[m].eet, arr_task[m].deadline, arr_task[m].time_delay, arr_task[m].finishing_time, arr_task[m].tardiness);
+		fprintf(of, "%ld,%d,%d ns,%d ns,%d ns,%d,%d\n\n", arr_task[m].task_id, arr_task[m].arrival_time, arr_task[m].eet, arr_task[m].deadline, arr_task[m].time_delay, arr_task[m].finishing_time, arr_task[m].tardiness);
 	}
 
 	if(fprintf != 0)

@@ -1,4 +1,4 @@
-int time_delay(int dl, int et)
+int time_delayIpdsa(int dl, int et)
 {
 	return dl - et;
 }

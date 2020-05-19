@@ -56,7 +56,7 @@ struct task_t
 	int finishing_time;
 	int tardiness;
 };
-struct task_t arr_task[24];
+struct task_t arr_task[1000];
 
 void *run_deadline(void *data)
 {
